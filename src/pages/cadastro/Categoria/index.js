@@ -11,16 +11,15 @@ function CadastroCategoria() {
 
                 <label>
                     Nome da Categoria:
-          <input
+                    <input
                         type="text"
                     />
                 </label>
 
                 <button>
                     Cadastrar
-        </button>
+                </button>
             </form>
-
 
             <Link to="/">
                 Ir para home
