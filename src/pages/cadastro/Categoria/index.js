@@ -34,6 +34,9 @@ function CadastroCategoria() {
 
             <form onSubmit={function handleSubmit(event) {
                 event.preventDefault();
+                if (values.nome === ""){
+                    return
+                }
                 setCategorias([
                     ...categorias,
                     values
