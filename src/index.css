@@ -37,43 +37,6 @@ main {
   margin: auto;
 }
 
-input, textarea {
-  box-sizing: border-box;
-  color: rgb(245, 245, 245);
-  display: block;
-  width: 100%;
-  font-size: 18px;
-  border-right-style: initial;
-  border-left-style: initial;
-  border-right-color: initial;
-  border-left-color: initial;
-  margin-bottom: 45px;
-  resize: none;
-  background: rgb(83, 88, 93);
-  outline: 0px;
-  border-width: 4px 0px;
-  border-image: initial;
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid rgb(83, 88, 93);
-  padding: 16px;
-  border-radius: 4px;
-  transition: border-color 0.3s ease 0s;
-}
-
-input {
-  height: 57px;
-}
-
-textarea {
-  height: 100px;
-}
-
-input:focus, textarea:focus {
-  --primary: #2a7ae4;
-  transition: border-color 0.3s ease 0s;
-  border-bottom-color: var(--primary);
-}
-
 @media (max-width: 800px) {
   a.ButtonLink {
     position: fixed;
