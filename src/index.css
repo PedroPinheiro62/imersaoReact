@@ -31,12 +31,6 @@ a {
   flex-direction: column;
 }
 
-main {
-  max-width: 900px;
-  width: 100%;
-  margin: auto;
-}
-
 @media (max-width: 800px) {
   a.ButtonLink {
     position: fixed;
